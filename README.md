@@ -1,14 +1,14 @@
 # LeightonSec
 
-Security engineering research and tooling — focused on AI security, threat detection, and post-quantum cryptography.
+Security engineering research and tooling : focused on AI security, threat detection, and post-quantum cryptography.
 
 ## Focus Areas
 
-AI Security — detection of prompt injection, jailbreaks, and adversarial inputs against large language models
+AI Security : detection of prompt injection, jailbreaks, and adversarial inputs against large language models
 
-Threat Detection — network analysis, threat intelligence pipelines, and SOC tooling built for practical use
+Threat Detection : network analysis, threat intelligence pipelines, and SOC tooling built for practical use
 
-Post-Quantum Cryptography — sovereign communication protocols resistant to quantum attack
+Post-Quantum Cryptography : sovereign communication protocols resistant to quantum attack
 
 ## Projects
 
