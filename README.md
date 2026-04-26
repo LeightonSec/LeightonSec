@@ -2,8 +2,6 @@
 
 Security engineering research and tooling — focused on AI security, threat detection, and post-quantum cryptography.
 
----
-
 ## Focus Areas
 
 **AI Security** — detection of prompt injection, jailbreaks, and adversarial inputs against large language models
@@ -12,12 +10,10 @@ Security engineering research and tooling — focused on AI security, threat det
 
 **Post-Quantum Cryptography** — sovereign communication protocols resistant to quantum attack
 
----
-
 ## Projects
 
 | Repository | Description |
-|---|---|
+|:--|:--|
 | [ai-firewall](https://github.com/LeightonSec/ai-firewall) | LLM jailbreak and prompt injection detection system |
 | [llm-honeypot](https://github.com/LeightonSec/llm-honeypot) | Fake AI assistant that silently logs and analyses attack attempts |
 | [llm-redteam](https://github.com/LeightonSec/llm-redteam) | Offensive AI security testing toolkit |
@@ -28,12 +24,10 @@ Security engineering research and tooling — focused on AI security, threat det
 | [intel-dashboard](https://github.com/LeightonSec/intel-dashboard) | Threat intelligence report viewer and aggregator |
 | [security-toolkit](https://github.com/LeightonSec/security-toolkit) | Growing collection of security scripts and utilities |
 
----
-
 ## About
 
 Self-directed security engineer transitioning from IT infrastructure into offensive and defensive security. CompTIA Security+ certified, Network+ in progress.
 
 Working toward a role in security engineering, threat detection, or AI security research.
 
-&rarr; [bastionprotocol.org](https://bastionprotocol.org)
+→ [bastionprotocol.org](https://bastionprotocol.org)
