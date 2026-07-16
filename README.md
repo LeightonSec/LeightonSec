@@ -23,10 +23,12 @@ resistant to quantum attack.
 
 | Repository | Description |
 |---|---|
-| [ai-firewall](https://github.com/LeightonSec/ai-firewall) | LLM prompt injection and jailbreak detection. Tiered weighted scoring, evasion-resistant signatures, adversarial test suite. 70 tests, CI green. |
-| [security-gate](https://github.com/LeightonSec/security-gate) | Self-enforcing static analysis gate. 18 scanners, 165 tests, CI with real teeth. Caught and patched a live CVE (GHSA-6v7p-g79w-8964) in its own dependency graph. |
+| [ai-firewall](https://github.com/LeightonSec/ai-firewall) | LLM prompt injection and jailbreak detection, packaged as an installable library. Tiered weighted scoring, evasion-resistant signatures, adversarial test suite. 82 tests, CI green. |
+| [security-gate](https://github.com/LeightonSec/security-gate) | Self-enforcing static analysis gate. 20 static scanners plus a DAST runtime scanner, 201 tests, CI with real teeth. Caught and patched a live CVE (GHSA-6v7p-g79w-8964) in its own dependency graph. |
+| [cascade-map](https://github.com/LeightonSec/cascade-map) | Dependency-reachability model for critical-infrastructure interdependencies — Purdue/IT-OT overlay, IT→OT bypass detection, NIS2 vendor-risk cross-referencing. |
 | [security-toolkit](https://github.com/LeightonSec/security-toolkit) | Modular web log analyser. SQLi detection hardened against string-boolean and comment-terminator evasion. 31-test adversarial suite with locked regression cases. |
 | [llm-honeypot](https://github.com/LeightonSec/llm-honeypot) | Fake AI assistant that silently logs and classifies attack attempts. Detects prompt injection, jailbreaks, data extraction, and reconnaissance. |
+| [threat-classifier](https://github.com/LeightonSec/threat-classifier) | ML-powered SOC alert triage — classifies threats, extracts IOCs, deduplicates alerts. |
 | [password-policy-checker](https://github.com/LeightonSec/password-policy-checker) | Password policy evaluator against NIST SP 800-63B and NCSC guidance, with HaveIBeenPwned k-anonymity breach checking. |
 | [port-scanner](https://github.com/LeightonSec/port-scanner) | TCP connect port scanner with banner grabbing, CIDR support, and JSON/Markdown output. |
 | [nis2-vendor-risk-framework](https://github.com/LeightonSec/nis2-vendor-risk-framework) | NIS2-aligned third-party risk assessment framework with scoring rubric and worked example. |
@@ -39,7 +41,8 @@ resistant to quantum attack.
 ## About
 
 Security engineer with a background in IT infrastructure and NHS
-deployment. CompTIA Security+ and Network+ certified, eAIS in progress.
+deployment. CompTIA Security+ and Network+ certified; eAIS (AI Systems
+Security Specialist, INE Security) in progress.
 
 Every project ships with a quality gate, adversarial test coverage, and
 documented design decisions. The gate enforces itself.
