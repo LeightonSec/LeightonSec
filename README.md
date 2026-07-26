@@ -23,8 +23,8 @@ resistant to quantum attack.
 
 | Repository | Description |
 |---|---|
-| [ai-firewall](https://github.com/LeightonSec/ai-firewall) | LLM prompt injection and jailbreak detection. Tiered weighted scoring, evasion-resistant signatures, adversarial test suite. 70 tests, CI green. |
-| [security-gate](https://github.com/LeightonSec/security-gate) | Self-enforcing static analysis gate. 18 scanners, 165 tests, CI with real teeth. Caught and patched a live CVE (GHSA-6v7p-g79w-8964) in its own dependency graph. |
+| [ai-firewall](https://github.com/LeightonSec/ai-firewall) | LLM prompt injection and jailbreak detection. Tiered weighted scoring, evasion-resistant signatures, adversarial test suite. 82 tests, CI green. |
+| [security-gate](https://github.com/LeightonSec/security-gate) | Self-enforcing static analysis gate. 20 scanners, 201 tests, CI with real teeth. Caught and patched a live CVE (GHSA-6v7p-g79w-8964) in its own dependency graph. Scanners cover .py and .ts; SCA covers Python dependencies only. |
 | [security-toolkit](https://github.com/LeightonSec/security-toolkit) | Modular web log analyser. SQLi detection hardened against string-boolean and comment-terminator evasion. 31-test adversarial suite with locked regression cases. |
 | [llm-honeypot](https://github.com/LeightonSec/llm-honeypot) | Fake AI assistant that silently logs and classifies attack attempts. Detects prompt injection, jailbreaks, data extraction, and reconnaissance. |
 | [password-policy-checker](https://github.com/LeightonSec/password-policy-checker) | Password policy evaluator against NIST SP 800-63B and NCSC guidance, with HaveIBeenPwned k-anonymity breach checking. |
