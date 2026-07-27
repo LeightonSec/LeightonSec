@@ -1,22 +1,22 @@
 # LeightonSec
 
-Security engineering research and tooling — OT/ICS threat detection,
+Security engineering research and tooling: OT/ICS threat detection,
 AI security, and GRC compliance.
 
 ## Focus Areas
 
-**OT/ICS & Threat Detection** — network analysis, threat intelligence
+**OT/ICS & Threat Detection**: network analysis, threat intelligence
 pipelines, and SOC tooling built for practical use. Detection engineering
 with adversarial test coverage and regression locks.
 
-**AI Security** — detection of prompt injection, jailbreaks, and
+**AI Security**: detection of prompt injection, jailbreaks, and
 adversarial inputs against LLMs. Weighted scoring, evasion-resistant
 signatures, and false-positive tuning.
 
-**GRC & Compliance** — NIS2 vendor risk frameworks, MFA audit tooling,
+**GRC & Compliance**: NIS2 vendor risk frameworks, MFA audit tooling,
 and policy assessment aligned to EU and NCSC standards.
 
-**Post-Quantum Cryptography** — sovereign communication protocols
+**Post-Quantum Cryptography**: sovereign communication protocols
 resistant to quantum attack.
 
 ## Projects
@@ -30,7 +30,7 @@ resistant to quantum attack.
 | [password-policy-checker](https://github.com/LeightonSec/password-policy-checker) | Password policy evaluator against NIST SP 800-63B and NCSC guidance, with HaveIBeenPwned k-anonymity breach checking. |
 | [port-scanner](https://github.com/LeightonSec/port-scanner) | TCP connect port scanner with banner grabbing, CIDR support, and JSON/Markdown output. |
 | [nis2-vendor-risk-framework](https://github.com/LeightonSec/nis2-vendor-risk-framework) | NIS2-aligned third-party risk assessment framework with scoring rubric and worked example. |
-| [mfa-coverage-tracker](https://github.com/LeightonSec/mfa-coverage-tracker) | M365 MFA audit tool — identifies weak or missing MFA, generates HTML risk reports. |
+| [mfa-coverage-tracker](https://github.com/LeightonSec/mfa-coverage-tracker) | M365 MFA audit tool that identifies weak or missing MFA, generates HTML risk reports. |
 | [intel-pipeline](https://github.com/LeightonSec/intel-pipeline) | Automated threat intelligence collection and processing pipeline. |
 | [pcap-analyser](https://github.com/LeightonSec/pcap-analyser) | Network packet capture analysis and anomaly detection. |
 | [incident-tracker](https://github.com/LeightonSec/incident-tracker) | SOC incident ticketing and case management system. |
@@ -42,7 +42,7 @@ Security engineer with a background in IT infrastructure and NHS
 deployment. CompTIA Security+ and Network+ certified, eAIS in progress.
 
 Every project ships with a quality gate, adversarial test coverage, and
-documented design decisions. The gate enforces itself.
+documented design decisions. The gate enforces itself. Automated gate coverage is Python and TypeScript.
 
 Targeting OT/ICS threat detection and AI security engineering roles.
 
