@@ -21,7 +21,7 @@ I don't trust a security claim, including my own, until I've seen the raw eviden
 |---|---|
 | [ai-firewall](https://github.com/LeightonSec/ai-firewall) | LLM prompt injection and jailbreak detection, packaged as an installable library. Tiered weighted scoring, evasion-resistant signatures, adversarial test suite. |
 | [security-gate](https://github.com/LeightonSec/security-gate) | Self-enforcing static analysis gate: 21 scanners plus an opt-in DAST scanner. CI fails the build when the gate blocks. Source scanners read Python (.py); TypeScript (.ts) is read by two scanners only. SCA checks pinned Python dependency versions only. |
-| [cascade-map](https://github.com/LeightonSec/cascade-map) | Dependency-reachability model for critical infrastructure: inject a failure and trace what fails, in what order and how fast, then overlay NIS2 vendor risk to find suppliers that are also single points of failure. Includes a Purdue/IT-OT boundary overlay. v0.3.0. |
+| [cascade-map](https://github.com/LeightonSec/cascade-map) | Dependency-reachability model for critical infrastructure: inject a failure and trace what fails, in what order and how fast, then overlay NIS2 vendor risk to find suppliers whose solo failure reaches another essential entity. Includes a Purdue/IT-OT boundary overlay. v0.3.0. |
 | [modbus-sentinel](https://github.com/LeightonSec/modbus-sentinel) | Modbus TCP anomaly detector with a fail-closed parser. Parser, baseline and three of five detection classes built and tested (CI green, 100% statement coverage); polling-interval and off-hours detection specified in the design, not built. Synthetic data only. |
 | [threat-classifier](https://github.com/LeightonSec/threat-classifier) | SOC alert triage classifier: labels signals as threat or benign with a confidence score and flags low-confidence results for analyst escalation. Input hardening (Unicode normalisation, zero-width stripping) runs before every classification. |
 | [security-toolkit](https://github.com/LeightonSec/security-toolkit) | Modular web log analyser. SQLi detection hardened against string-boolean and comment-terminator evasion. 31-test adversarial suite with locked regression cases. |
@@ -41,7 +41,9 @@ Security engineer with a background in IT infrastructure and NHS
 deployment. CompTIA Security+ and Network+ certified; AI Systems Security
 Specialist (eAIS), INE Security.
 
-Every public code repo runs its tests and security-gate in CI. The gate also
+Every repo linked above runs its tests and security-gate in CI on every push and
+pull request to main, except nis2-vendor-risk-framework, which has no CI
+workflow; ai-firewall's live end-to-end suite runs manually. The gate also
 scans itself. Automated gate coverage is Python; TypeScript is read by two scanners only.
 
 Targeting OT/ICS threat detection and AI security engineering roles.
